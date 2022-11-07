@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Unesi bilo koji broj od 1 do 3");
+            Console.WriteLine("Unesi bilo koji broj od 1 do 4");
             int n= int.Parse(Console.ReadLine());
             switch (n)
             {
@@ -24,8 +24,13 @@ namespace ConsoleApp1
 
                 case 3:
                     Console.WriteLine("***");
-                 break;
-                    default: Console.WriteLine("Niste uneli nijedan broj od 1 do 3");
+                    break ;
+
+                case 4:
+                    Console.WriteLine("****");
+                    break;
+
+                    default: Console.WriteLine("Niste uneli nijedan broj od 1 do 4");
                     break;
                    
             }
